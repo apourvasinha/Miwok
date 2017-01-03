@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:text="category_numbers"
+        android:onClick="openNumbersList" />
+
+    <TextView
+        android:id="@+id/family"
+        android:text="category_family" />
+
+    <TextView
+        android:id="@+id/colors"
+
+        android:text="category_colors" />
+
+    <TextView
+        android:id="@+id/phrases"
+        android:text="category_phrases" />
+
+</LinearLayout>
